@@ -1,0 +1,42 @@
+<!HOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Gabriele">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="description" content="Free Web tutorials">
+		<title> Gabriele- Soma de dois numeros.</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<script>
+		function somarNumeros () {
+			
+					var numero_01 = document.getElementById("Numero_01").value;
+					var numero_02 = document.getElementById("Numero_02").value;
+					var soma = ((numero_01 * 1  + numero_02 * 1));
+					document.getElementById("Resultado").innerHTML = soma;
+					}		
+		</script>
+	</head>
+	
+	<body>
+	<h1> soma de dois numeros com div</h1>
+	<h3> trabalho 10</h3>
+	
+	<form>
+	
+	<p><label for="number">Numero 1:</label>
+	<input type = "number" id="Numero_01" required></p>
+	<p><label for="number">Numero 2:</label>
+	<input type="number" id="Numero_02" required></p>
+	
+	
+	<input type="button" value="ENVIAR" onClick= "somarNumeros()">
+	<input type="reset" value="LIMPAR">
+	
+	<h1> Resultado da soma é:</h1>
+	<div id ="Resultado"> </div>
+	</form>
+	</body>
+	
+</html>	

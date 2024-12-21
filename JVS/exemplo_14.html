@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Object</title>
+		<meta charset="UTF-8" />
+		<script>
+		var variavel_tipo_objeto = 
+		[
+			{
+				codigo: 1,
+				valor_total: 1000.00,
+				itens:
+				[
+					{
+						descricao: "Camiseta Polo",
+						valor: 150.00
+					},
+					{
+						descricao: "Bermuda",
+						valor: 80.5
+					}
+				],
+			},
+				
+				
+			{
+				codigo: 2,
+				valor_total: 300.00,
+				itens:
+				[
+					{
+						descricao: "Blusa com capuz",
+						valor: 180
+					},
+					{
+						descricao: "tenis",
+						valor: 100
+					}
+				]
+			}
+		];
+			
+			alert(variavel_tipo_objeto[0].codigo);
+			alert(variavel_tipo_objeto[0].valor_total);
+			alert(variavel_tipo_objeto[0].itens[0].descricao);
+			alert(variavel_tipo_objeto[0].itens[0].valor);
+			alert(variavel_tipo_objeto[0].itens[1].descricao);
+			alert(variavel_tipo_objeto[0].itens[1].valor);
+			alert(variavel_tipo_objeto[1].codigo);
+			alert(variavel_tipo_objeto[1].valor_total);
+			alert(variavel_tipo_objeto[1].itens[1].descricao);
+			console.log("Abaixo está o nosso objeto criado:");
+			console.log(variavel_tipo_objeto);
+		</script>
+	</head>
+	<body>
+	<h1>Object</h1>
+	<h4>Exemplo 14 - Criando objeto e capturando os valores de variável tipo object</h4>
+	</body>
+</html>

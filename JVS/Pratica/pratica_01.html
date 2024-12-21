@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keysword" content="HTML, CSS, JavaScript">
+		<meta name="author" content="Gabriele">
+		<meta name="description" content="Free Web tutorials">
+		<link rel="stylesheet" href="estilo_pratica1.css"/>
+		<script src="script.js"></script>
+		<title> Pratica_01.</title>
+		
+	</head>
+	<body>
+	
+		<form>
+			<label for="produto_nome">Produto:</label> 
+			<input type = "text" id="produto_nome" required>
+			
+			<label for="produto_valor">Valor:</label>
+			<input type="text" id="produto_valor" required>
+			
+			<label for ="produto_quantidade">Quantidade:</label> 
+			<input type="text" id="produto_quantidade" required>
+			
+			<input type="button" id="btn_enviar" value="Adicionar Produtos"  onclick="adicionarProdutos()"> <input type="button" value="Salvar" >
+			
+				
+		</form>
+		
+		<table>
+			<caption> Tabela de Produtos</caption>
+				<thead> 
+					<tr> 
+						<th> Produto.</th>
+						<th> Valor.</th>
+						<th> Quantidade</th>
+						<th> Valor Venda</th>
+					</tr>
+				</thead>
+				<tbody id="tabela_produtos">
+				</tbody>
+				<tfoot>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<th id="valor_total"><span>Total: R$ </span>0,00</th>
+					</tr>
+				</tfoot>
+		</table>
+		
+		
+		
+	</body>
+</html>

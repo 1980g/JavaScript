@@ -1,0 +1,33 @@
+div.quadrado {
+			width: 200px;
+			height: 200px;
+			border: 2px solid black;
+			margin: 5px;
+			display: inline-block;
+
+}
+
+section {
+	margin: auto;
+	width: 1000px;
+	height: 300px;
+
+}
+
+div.quadro_01 {
+	background-color: pink;
+	box-shadow: 3px 3px 2px black;
+}
+
+div.quadro_02 {
+	background-image: linear-gradient(to red, pink, orange);
+}
+
+div.quadro_03 {
+	background-image: url(navegadores.png);
+	box-shadow: 10px 20px 20px ;
+}
+
+body {
+	background-image: url(navegadores.png);
+}

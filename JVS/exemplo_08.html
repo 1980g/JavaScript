@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<title> Array</title>
+	<meta charset="UTF-8" />
+		<script>
+		let meses =["janeiro", "fevereiro", "março", 
+								"abril", "maio", "junho", 
+								"julho", "agosto", "setembro", 
+								"outubro", "novembro", "dezembro" ];
+		let posicao_array = prompt("Digite a posição: ");
+		alert("A posição " + posicao_array + " no array é " + meses[posicao_array]);
+		alert("Quantidade de itens no array: " + meses.length);
+		alert("Existe janeiro? " + meses.includes("Janeiro"));
+		alert("Posição 13: " + meses[12]);
+		alert("Inserindo SENAI na posição: " + meses.push("SENAI"));
+		alert("Posição 13: " + meses[12]);
+		alert("Removendo " + meses.pop("SENAI"));
+		alert("Posição 13: " + meses[12]);
+		alert(meses);
+		alert("fim");
+		</script>
+	</head>	
+	<body>	
+		<h1> Array</h1>
+		<h3> Exemplo 8</h3>
+	</body>	
+</html>
